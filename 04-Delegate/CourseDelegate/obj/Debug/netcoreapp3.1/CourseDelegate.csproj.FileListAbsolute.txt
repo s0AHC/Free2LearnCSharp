@@ -1,0 +1,11 @@
+C:\01-GitLocal\00-CSharpSnippets\00-How2GetCSharp\04-Delegate\CourseDelegate\bin\Debug\netcoreapp3.1\CourseDelegate.exe
+C:\01-GitLocal\00-CSharpSnippets\00-How2GetCSharp\04-Delegate\CourseDelegate\bin\Debug\netcoreapp3.1\CourseDelegate.deps.json
+C:\01-GitLocal\00-CSharpSnippets\00-How2GetCSharp\04-Delegate\CourseDelegate\bin\Debug\netcoreapp3.1\CourseDelegate.runtimeconfig.json
+C:\01-GitLocal\00-CSharpSnippets\00-How2GetCSharp\04-Delegate\CourseDelegate\bin\Debug\netcoreapp3.1\CourseDelegate.runtimeconfig.dev.json
+C:\01-GitLocal\00-CSharpSnippets\00-How2GetCSharp\04-Delegate\CourseDelegate\bin\Debug\netcoreapp3.1\CourseDelegate.dll
+C:\01-GitLocal\00-CSharpSnippets\00-How2GetCSharp\04-Delegate\CourseDelegate\bin\Debug\netcoreapp3.1\CourseDelegate.pdb
+C:\01-GitLocal\00-CSharpSnippets\00-How2GetCSharp\04-Delegate\CourseDelegate\obj\Debug\netcoreapp3.1\CourseDelegate.csprojAssemblyReference.cache
+C:\01-GitLocal\00-CSharpSnippets\00-How2GetCSharp\04-Delegate\CourseDelegate\obj\Debug\netcoreapp3.1\CourseDelegate.AssemblyInfoInputs.cache
+C:\01-GitLocal\00-CSharpSnippets\00-How2GetCSharp\04-Delegate\CourseDelegate\obj\Debug\netcoreapp3.1\CourseDelegate.AssemblyInfo.cs
+C:\01-GitLocal\00-CSharpSnippets\00-How2GetCSharp\04-Delegate\CourseDelegate\obj\Debug\netcoreapp3.1\CourseDelegate.dll
+C:\01-GitLocal\00-CSharpSnippets\00-How2GetCSharp\04-Delegate\CourseDelegate\obj\Debug\netcoreapp3.1\CourseDelegate.pdb

@@ -1,0 +1,11 @@
+C:\01-GitLocal\00-CSharpSnippets\00-How2GetCSharp\05-Event\CourseEvent02\bin\Debug\netcoreapp3.1\CourseEvent02.exe
+C:\01-GitLocal\00-CSharpSnippets\00-How2GetCSharp\05-Event\CourseEvent02\bin\Debug\netcoreapp3.1\CourseEvent02.deps.json
+C:\01-GitLocal\00-CSharpSnippets\00-How2GetCSharp\05-Event\CourseEvent02\bin\Debug\netcoreapp3.1\CourseEvent02.runtimeconfig.json
+C:\01-GitLocal\00-CSharpSnippets\00-How2GetCSharp\05-Event\CourseEvent02\bin\Debug\netcoreapp3.1\CourseEvent02.runtimeconfig.dev.json
+C:\01-GitLocal\00-CSharpSnippets\00-How2GetCSharp\05-Event\CourseEvent02\bin\Debug\netcoreapp3.1\CourseEvent02.dll
+C:\01-GitLocal\00-CSharpSnippets\00-How2GetCSharp\05-Event\CourseEvent02\bin\Debug\netcoreapp3.1\CourseEvent02.pdb
+C:\01-GitLocal\00-CSharpSnippets\00-How2GetCSharp\05-Event\CourseEvent02\obj\Debug\netcoreapp3.1\CourseEvent02.csprojAssemblyReference.cache
+C:\01-GitLocal\00-CSharpSnippets\00-How2GetCSharp\05-Event\CourseEvent02\obj\Debug\netcoreapp3.1\CourseEvent02.AssemblyInfoInputs.cache
+C:\01-GitLocal\00-CSharpSnippets\00-How2GetCSharp\05-Event\CourseEvent02\obj\Debug\netcoreapp3.1\CourseEvent02.AssemblyInfo.cs
+C:\01-GitLocal\00-CSharpSnippets\00-How2GetCSharp\05-Event\CourseEvent02\obj\Debug\netcoreapp3.1\CourseEvent02.dll
+C:\01-GitLocal\00-CSharpSnippets\00-How2GetCSharp\05-Event\CourseEvent02\obj\Debug\netcoreapp3.1\CourseEvent02.pdb
