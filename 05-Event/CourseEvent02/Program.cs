@@ -13,8 +13,11 @@ namespace CourseEvent02
     {
         static void Main(string[] args)
         {
+            // 1. event source: eventSource
             HereIsEventSource eventSource=new HereIsEventSource();
+            // 3. Event subscriber: eventSubscriber
             EventSubcriber eventSubscriber=new EventSubcriber();
+            // 2. Event: EventName
             eventSource.EventName+=eventSubscriber.SubscriberDoSomthing;
             eventSource.EventSourceAction4TriggerEvent();
              
@@ -59,6 +62,7 @@ namespace CourseEvent02
         // So please don't forget to generate an action to trigger event
         public void EventSourceAction4TriggerEvent()
         {
+            // Before you do something make sure eventhandler existed!
             if(this.delegateEventHandler!=null)
             {
                 EventNameEventArgs e=new EventNameEventArgs();
