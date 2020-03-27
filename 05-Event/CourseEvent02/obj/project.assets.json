@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\01-GitLocal\\00-CSharpSnippets\\00-How2GetCSharp\\05-Event\\CourseEvent02\\CourseEvent02.csproj",
+      "projectUniqueName": "C:\\01-GitLocal\\07-Free2LearnCSharp\\05-Event\\CourseEvent02\\CourseEvent02.csproj",
       "projectName": "CourseEvent02",
-      "projectPath": "C:\\01-GitLocal\\00-CSharpSnippets\\00-How2GetCSharp\\05-Event\\CourseEvent02\\CourseEvent02.csproj",
+      "projectPath": "C:\\01-GitLocal\\07-Free2LearnCSharp\\05-Event\\CourseEvent02\\CourseEvent02.csproj",
       "packagesPath": "C:\\Users\\secn0f9020\\.nuget\\packages\\",
-      "outputPath": "C:\\01-GitLocal\\00-CSharpSnippets\\00-How2GetCSharp\\05-Event\\CourseEvent02\\obj\\",
+      "outputPath": "C:\\01-GitLocal\\07-Free2LearnCSharp\\05-Event\\CourseEvent02\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

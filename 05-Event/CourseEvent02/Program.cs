@@ -14,8 +14,9 @@ namespace CourseEvent02
         static void Main(string[] args)
         {
             HereIsEventSource eventSource=new HereIsEventSource();
-            EventResponder eventResponder=new EventResponder();
-            eventSource.EventName+=eventResponder.Action;
+            EventSubcriber eventSubscriber=new EventSubcriber();
+            eventSource.EventName+=eventSubscriber.SubscriberDoSomthing;
+            eventSource.EventSourceAction4TriggerEvent();
              
         }
     }
@@ -23,7 +24,6 @@ namespace CourseEvent02
     // Define details arguments for event, this class should derived from EventArgs
     public class EventNameEventArgs:EventArgs
     {
-
         public string FirstArgs{get;set;}
         public string SecondArgs{get;set;}
     }
@@ -44,6 +44,7 @@ namespace CourseEvent02
         */
         public event DelegateEventHandler EventName
         {
+            // The event should has both the add and remove methods.
             add
             {
                 this.delegateEventHandler+=value;
@@ -53,13 +54,31 @@ namespace CourseEvent02
                 this.delegateEventHandler-=value;
             }
         }
+
+        // Event owned by event source and should trigger in the event source
+        // So please don't forget to generate an action to trigger event
+        public void EventSourceAction4TriggerEvent()
+        {
+            if(this.delegateEventHandler!=null)
+            {
+                EventNameEventArgs e=new EventNameEventArgs();
+                e.FirstArgs="You deal wiht 1st args";
+                e.SecondArgs="You deal with 2nd args";
+                this.delegateEventHandler.Invoke(this,e);
+            }
+        }
     }
 
-    public class EventResponder
+    // 3. Event subscriber( or be called event responder)
+    public class EventSubcriber
     {
-        public void Action(HereIsEventSource eventSource,EventNameEventArgs e)
+        // eventSource tells EventSubscriber do for who
+        // e tell EventSubscriber the action should base on something 
+        public void SubscriberDoSomthing(HereIsEventSource eventSource,EventNameEventArgs e)
         {
-            System.Console.WriteLine(   "do something!");
+            System.Console.WriteLine($"Event Suberscriber do something after Event source trigger the event!");
+            System.Console.WriteLine($"Do something with 1st agrs: {e.FirstArgs} ");
+            System.Console.WriteLine($"Do something with 2nd agrs: {e.SecondArgs} ");
         }
     }
 }
