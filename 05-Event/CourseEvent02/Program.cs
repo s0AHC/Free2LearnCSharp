@@ -17,7 +17,9 @@ namespace CourseEvent02
             HereIsEventSource eventSource=new HereIsEventSource();
             // 3. Event subscriber: eventSubscriber
             EventSubcriber eventSubscriber=new EventSubcriber();
-            // 2. Event: EventName
+            // 2. Event: EventName    
+            //                5. += subscribe the event 
+            //                                     SubscriberDoSomthing: action after event triggerred
             eventSource.EventName+=eventSubscriber.SubscriberDoSomthing;
             eventSource.EventSourceAction4TriggerEvent();
              
