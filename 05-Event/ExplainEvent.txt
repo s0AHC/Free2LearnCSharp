@@ -3,13 +3,25 @@
     A: In C# Event is a notification, trigger by something, send out notification, responser do something.
     A: 事件是种消息，被触发，被接受，响应者做事情。
 2.  Q: Structure of Event.
-    A: 分为五大部分:
+    A: Event get five members 分为五大部分:
         2.1 Event source (事件拥有者，这是个对象 )
         2.2 Event (事件，这是个成员；别忘了要建一个继承自EventArgs类用于事件的参数属性, 类名命名为EvnetNameArgs )
         2.3 Event subscriber (事件订阅者/ 事件响应者，这是个对象 ) 
         2.4 Event handler (事件处理器，这是个成员 )
         2.5 Subscribe (将事件于事件处理器关联，本质上是一种以委托类型为基础的约定 )
 3. Customized Event.自定义Event。
-        Remeber event's 5 members.
-        写事件记住5个构成部分。
-    
+        Remeber event's 5 members，according this 5 members we define an event by 7 steps.
+        写事件记住5个构成部分,我们据此将自定义Event细分为7步：
+		
+		Step 1. Define Event Source
+		* Below three steps inside the Event Source：
+			Step 2. Define a event handler delegate's field，We'll define event handler in Step 6
+			Step 3. Define event, and specified this event constraint by which Event Handler delegate
+			Step 4. Define an event trigger method inside the event source
+				a. Pass event parameters，we will generate Event Args properties class at Step 7
+				b. Event handler invoke
+		Step 5. Define Event subscriber( or called as event responder)，subscriber do something when it get event message from event source
+		Step 6. Define Event handler delegate: remeber we use delegate to subscribe the Event.
+			a. In the arguments list we use the HereIsEventSource to specify the event source, 
+            b. the EventArgs specified which information should be send to event responder
+		Step 7. Define details arguments for event, this class should derived from EventArgs
