@@ -1,0 +1,3 @@
+Q: Why we need Generic？
+A:	1. Repeating those classes with similar functionality，that causes the class to expand
+	2. Void similar class members causes the class members expand 
