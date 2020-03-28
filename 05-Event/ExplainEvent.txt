@@ -5,7 +5,7 @@
 2.  Q: Structure of Event.
     A: 分为五大部分:
         2.1 Event source (事件拥有者，这是个对象 )
-        2.2 Event (事件，这是个成员 )
+        2.2 Event (事件，这是个成员；别忘了要建一个继承自EventArgs类用于事件的参数属性, 类名命名为EvnetNameArgs )
         2.3 Event subscriber (事件订阅者/ 事件响应者，这是个对象 ) 
         2.4 Event handler (事件处理器，这是个成员 )
         2.5 Subscribe (将事件于事件处理器关联，本质上是一种以委托类型为基础的约定 )
