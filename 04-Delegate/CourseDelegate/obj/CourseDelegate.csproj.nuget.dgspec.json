@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\01-GitLocal\\00-CSharpSnippets\\00-How2GetCSharp\\04-Delegate\\CourseDelegate\\CourseDelegate.csproj": {}
+    "C:\\01-GitLocal\\07-Free2LearnCSharp\\04-Delegate\\CourseDelegate\\CourseDelegate.csproj": {}
   },
   "projects": {
-    "C:\\01-GitLocal\\00-CSharpSnippets\\00-How2GetCSharp\\04-Delegate\\CourseDelegate\\CourseDelegate.csproj": {
+    "C:\\01-GitLocal\\07-Free2LearnCSharp\\04-Delegate\\CourseDelegate\\CourseDelegate.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\01-GitLocal\\00-CSharpSnippets\\00-How2GetCSharp\\04-Delegate\\CourseDelegate\\CourseDelegate.csproj",
+        "projectUniqueName": "C:\\01-GitLocal\\07-Free2LearnCSharp\\04-Delegate\\CourseDelegate\\CourseDelegate.csproj",
         "projectName": "CourseDelegate",
-        "projectPath": "C:\\01-GitLocal\\00-CSharpSnippets\\00-How2GetCSharp\\04-Delegate\\CourseDelegate\\CourseDelegate.csproj",
+        "projectPath": "C:\\01-GitLocal\\07-Free2LearnCSharp\\04-Delegate\\CourseDelegate\\CourseDelegate.csproj",
         "packagesPath": "C:\\Users\\secn0f9020\\.nuget\\packages\\",
-        "outputPath": "C:\\01-GitLocal\\00-CSharpSnippets\\00-How2GetCSharp\\04-Delegate\\CourseDelegate\\obj\\",
+        "outputPath": "C:\\01-GitLocal\\07-Free2LearnCSharp\\04-Delegate\\CourseDelegate\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
