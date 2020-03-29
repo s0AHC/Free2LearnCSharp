@@ -33,6 +33,8 @@ namespace CourseDelegate
             CustomizedIntDelegate cdAdd = new CustomizedIntDelegate(MyMath.Add);
             var v = cdAdd.Invoke(300, 500);
             System.Console.WriteLine(value: $"Customed delegate Add method: {v}");
+            v+=cdAdd(200,1000);
+            System.Console.WriteLine(value: $"Customed delegate Add method with Multi cast: {v}");
             
             CustomizedDblDelegate cdDiv = new CustomizedDblDelegate(MyMath.Divide);
             var v1 = cdDiv(1000.00, 200.00);
@@ -46,7 +48,7 @@ namespace CourseDelegate
             //本例: Action，用于无法返回的函数
             Action<int, int> multiplication = new Action<int, int>(MyMath.Multiplication); //Attention: just put method's name in Action invoke, suffix no more ()"
             Action<int, int> subtraction = new Action<int, int>(MyMath.Subtraction);
-            multiplication(100, 200);  //invoke used, but as you see at below it can be omitted!
+            multiplication.Invoke(100, 200);  //invoke used, but as you see at below it can be omitted!
             subtraction(300, 50);  //invoke was omitted!
 
             //Example: Func, for function
@@ -68,10 +70,12 @@ namespace CourseDelegate
             // 有返回的泛型代理
             CustomizedGenericDelegateWithReturn<double, double, double> cgdrDblDiv = new CustomizedGenericDelegateWithReturn<double, double, double>(MyMath.Divide);
             // Equivalent to: var cgdrDblDiv=new CustomizedGenericDelegateWithReturn<double,double,double>(MyMath.Divide);
-            var v3=cgdrDblDiv(66.99,3.3);
+            var v3=cgdrDblDiv(66.99,11);
             // Don't just put cgdrDblDiv in output such as: Console.WriteLine($“{cgderDblDiv}”); use var please            
-            // 不要直接将cgdrDblDiv放到Console.WriteLine，因为没有这个的重写😂
+            // 不要直接将cgdrDblDiv放到Console.WriteLinev3+=cgdrDblDiv(33,11);，因为没有这个的重写😂
             Console.WriteLine(value: $"Customized Generic Delegate With Return: {v3}"); 
+            v3+=cgdrDblDiv(66,3.3);
+            Console.WriteLine(value: $"Customized Generic Delegate With Return multi cast: {v3}"); 
 
         }
 
