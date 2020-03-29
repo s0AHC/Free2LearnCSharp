@@ -70,9 +70,10 @@ namespace CourseDelegate
             // 有返回的泛型代理
             CustomizedGenericDelegateWithReturn<double, double, double> cgdrDblDiv = new CustomizedGenericDelegateWithReturn<double, double, double>(MyMath.Divide);
             // Equivalent to: var cgdrDblDiv=new CustomizedGenericDelegateWithReturn<double,double,double>(MyMath.Divide);
+            // Equivalent to: double v3=cgdrDblDiv(66.99,11);
             var v3=cgdrDblDiv(66.99,11);
             // Don't just put cgdrDblDiv in output such as: Console.WriteLine($“{cgderDblDiv}”); use var please            
-            // 不要直接将cgdrDblDiv放到Console.WriteLinev3+=cgdrDblDiv(33,11);，因为没有这个的重写😂
+            // 不要直接将cgdrDblDiv放到Console.WriteLinev3+=cgdrDblDiv(33,11);因为没有这个的重写😂
             Console.WriteLine(value: $"Customized Generic Delegate With Return: {v3}"); 
             v3+=cgdrDblDiv(66,3.3);
             Console.WriteLine(value: $"Customized Generic Delegate With Return multi cast: {v3}"); 
