@@ -39,7 +39,7 @@ namespace CourseEvent02
     public class HereIsEventSource
     {
         /*
-            Step 2. We define a event handler delegate's field. We'll define event handler in Step 6
+            Step 2. We define a event handler delegate's field. We'll define event handler delegate in Step 6
             第二步. 我们声明一个事件处理器的字段；当然, 现在这个事件处理器还不存在，我们在后面需要定义(见第6步 )
         */
         private DelegateEventHandler delegateEventHandler;
