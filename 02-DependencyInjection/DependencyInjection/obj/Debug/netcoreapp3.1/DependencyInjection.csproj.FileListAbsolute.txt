@@ -1,0 +1,14 @@
+C:\01-GitLocal\07-Free2LearnCSharp\02-DependencyInjection\DependencyInjection\bin\Debug\netcoreapp3.1\DependencyInjection.exe
+C:\01-GitLocal\07-Free2LearnCSharp\02-DependencyInjection\DependencyInjection\bin\Debug\netcoreapp3.1\DependencyInjection.deps.json
+C:\01-GitLocal\07-Free2LearnCSharp\02-DependencyInjection\DependencyInjection\bin\Debug\netcoreapp3.1\DependencyInjection.runtimeconfig.json
+C:\01-GitLocal\07-Free2LearnCSharp\02-DependencyInjection\DependencyInjection\bin\Debug\netcoreapp3.1\DependencyInjection.runtimeconfig.dev.json
+C:\01-GitLocal\07-Free2LearnCSharp\02-DependencyInjection\DependencyInjection\bin\Debug\netcoreapp3.1\DependencyInjection.dll
+C:\01-GitLocal\07-Free2LearnCSharp\02-DependencyInjection\DependencyInjection\bin\Debug\netcoreapp3.1\DependencyInjection.pdb
+C:\01-GitLocal\07-Free2LearnCSharp\02-DependencyInjection\DependencyInjection\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\01-GitLocal\07-Free2LearnCSharp\02-DependencyInjection\DependencyInjection\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\01-GitLocal\07-Free2LearnCSharp\02-DependencyInjection\DependencyInjection\obj\Debug\netcoreapp3.1\DependencyInjection.csprojAssemblyReference.cache
+C:\01-GitLocal\07-Free2LearnCSharp\02-DependencyInjection\DependencyInjection\obj\Debug\netcoreapp3.1\DependencyInjection.AssemblyInfoInputs.cache
+C:\01-GitLocal\07-Free2LearnCSharp\02-DependencyInjection\DependencyInjection\obj\Debug\netcoreapp3.1\DependencyInjection.AssemblyInfo.cs
+C:\01-GitLocal\07-Free2LearnCSharp\02-DependencyInjection\DependencyInjection\obj\Debug\netcoreapp3.1\DependencyInjection.csproj.CopyComplete
+C:\01-GitLocal\07-Free2LearnCSharp\02-DependencyInjection\DependencyInjection\obj\Debug\netcoreapp3.1\DependencyInjection.dll
+C:\01-GitLocal\07-Free2LearnCSharp\02-DependencyInjection\DependencyInjection\obj\Debug\netcoreapp3.1\DependencyInjection.pdb
