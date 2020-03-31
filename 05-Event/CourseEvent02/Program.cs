@@ -95,8 +95,9 @@ namespace CourseEvent02
     // 第五步. 事件订阅者 (或者称为事件响应者 )，订阅者对订阅的事件做出反应(或者说动作 )
     public class EventSubcriber
     {
-        // eventSource tells EventSubscriber do for which Event Source
-        // e tell EventSubscriber the action should base on which parameters 
+        // Due to subscribe event via delegate, so the method's signature must same as eventhandler delegate
+        //  - eventSource tells EventSubscriber do for which Event Source
+        //  - tell EventSubscriber the action should base on which parameters 
         public void SubscriberDoSomthing(HereIsEventSource eventSource,EventNameEventArgs e)
         {
             System.Console.WriteLine($"Event Suberscriber do something after Event source trigger the event!");

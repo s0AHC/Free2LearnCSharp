@@ -9,11 +9,21 @@ namespace ReflectOperation
         static void Main(string[] args)
         {
             /*
-             * How to use DependencyInjection:
-             * must using Microsoft.Extensions.DependencyInjection;
-             * Dependency Injection has a container(ServiceCollection ), we can put type and interface into this container.
+               How to use DependencyInjection:
+               must using Microsoft.Extensions.DependencyInjection;
+               
+               In VS code please install Nuget Package Manager and modify fetchPackageVersion.js file at below folder：
+                /Users/UserName/.vscode/extensions/jmrog.vscode-nuget-package-manager-1.1.6/out/src/actions/add-methods/fetchPackageVersions.js
+                Modified content:
+                    return new Promise((resolve) => {
+                        node_fetch_1.default(`${versionsUrl}${selectedPackageName.toLowerCase()}/index.json`, utils_1.getFetchOptions(vscode.workspace.getConfiguration('http')))
+                        .then((response) => {
+                        shared_1.clearStatusBar();
+                        resolve({ response, selectedPackageName });
+                    });
              */
 
+            // Dependency Injection has a container(ServiceCollection ), we can put type and interface into this container.
             // ServiceCollection is a containter
             var ServiceContainter = new ServiceCollection();
             // register type in Service Containter
