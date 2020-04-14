@@ -4,7 +4,7 @@ using System.Collections.Generic;
 namespace CourseDelegate
 {
 
-    //有点郁闷了，课程名是Delegate，我也是想说delegate，不知道怎么就generic的量似乎超过delegate了。😂
+    //有点郁闷了，课程名是Delegate，我也是想说delegate，不知道怎么就让generic蹭了流量，似乎超过delegate了。😂
     class Program
     {
         // 代理是对方法的，所以应用代理必然有方法与之对应
@@ -21,8 +21,9 @@ namespace CourseDelegate
          Define a customized generic delegate with a return
          自定义一个有返回值的泛型代理
          1. All argumets type and return type should be put into the generic arguments type list, inclusived by <>, 
-         2. In the generic arguments type list should conduct by arguments type, the return type as ending. Same as Func delegate In example: T1 and T2 are argumets T is return type!
-         1. 所有泛型的形参和返回类型都应该被放置在泛型参数列表<>中, 并由参数开始，放完参数才能放返回类型。 
+         2. In the generic arguments type list should conduct by arguments type, the return type as ending. 
+            Same as Func delegate In example: T1 and T2 are argumets T is return type!
+         1. 所有泛型的形参和返回类型都应该被放置在泛型参数列表<>中, 列表中一定是由参数作为起始，放完参数才能放返回类型。 
          2. 本例中T1和T2是参数，T是返回类型,其实系统定义Func delegate也是这样的        
         */
 
