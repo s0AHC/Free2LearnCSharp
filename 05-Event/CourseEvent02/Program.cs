@@ -14,6 +14,7 @@ namespace CourseEvent02
 
     class Program
     {
+        
         static void Main(string[] args)
         {
             // 1. event source: eventSource
