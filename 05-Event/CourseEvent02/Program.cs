@@ -17,12 +17,13 @@ namespace CourseEvent02
         
         static void Main(string[] args)
         {
+            // Step 8: Event sample, 事件的一个样本
             // 1. event source: eventSource
             HereIsEventSource eventSource=new HereIsEventSource();
             // 3. Event subscriber: eventSubscriber
             EventSubcriber eventSubscriber=new EventSubcriber();
             // 2. Event: EventName    
-            //                5. += subscribe the event 
+            //                5. use “+=” to subscribe the event 
             //                                     SubscriberDoSomthing: action after event triggerred
             eventSource.EventName+=eventSubscriber.SubscriberDoSomthing;
             eventSource.EventSourceAction4TriggerEvent();
@@ -70,7 +71,7 @@ namespace CourseEvent02
         }
 
         /*
-            Step 4. Event source owned the event，so should define an event trigger method inside the event source
+            Step 4. Event source owned the event，so should define an event trigger method inside the event source,
                     So please don't forget to generate an action to trigger event
             第四步. 事件要能发送消息，请别忘了在事件拥有者中建一个方法用于事件触发       
         */        
@@ -85,8 +86,8 @@ namespace CourseEvent02
                 e.FirstArgs="You deal wiht 1st args";
                 e.SecondArgs="You deal with 2nd args";
 
-                // Event handler invoke
-                // 例用事件处理器调用
+                // Event handler invoke.
+                // 利用事件处理器调用。
                 this.delegateEventHandler.Invoke(this,e);
             }
         }
@@ -98,12 +99,12 @@ namespace CourseEvent02
     {
         // Due to subscribe event via delegate, so the method's signature must same as eventhandler delegate
         //  - eventSource tells EventSubscriber do for which Event Source
-        //  - tell EventSubscriber the action should base on which parameters 
+        //  - e tells EventSubscriber the action should base on which parameters 
         public void SubscriberDoSomthing(HereIsEventSource eventSource,EventNameEventArgs e)
         {
             System.Console.WriteLine($"Event Suberscriber do something after Event source trigger the event!");
-            System.Console.WriteLine($"Do something with 1st agrs: {e.FirstArgs} ");
-            System.Console.WriteLine($"Do something with 2nd agrs: {e.SecondArgs} ");
+            System.Console.WriteLine($"Do something with 1st agrs of EventNameEventArgs: {e.FirstArgs} ");
+            System.Console.WriteLine($"Do something with 2nd agrs of EventNameEventArgs: {e.SecondArgs} ");
         }
     }
 
