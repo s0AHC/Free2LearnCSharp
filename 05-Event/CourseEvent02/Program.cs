@@ -32,8 +32,8 @@ namespace CourseEvent02
     }
 
     /*
-        Event belong to the event source, we generate event inside the Event Source，so first we need event source
-        事件属于事件拥有者，如果我们要有事件就必须在事件拥有者内部定义事件，所以首先我们要有事件拥有者
+        Event belong to the event source, we generate Event Source then we define an event inside the Event Source，so first we need event source
+        事件属于事件拥有者，如果我们要有事件就必须先定义事件拥有者，再在事件拥有者内部定义事件，所以首先我们要有事件拥有者
 
         Step 1. Define an Event source: This class define a event source
         第一步. 定义一个事件拥有者：下面这个class用于定义一个事件拥有者
