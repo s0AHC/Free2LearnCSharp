@@ -1,0 +1,11 @@
+C:\01-GitLocal\07-Free2LearnCSharp\07-AsyncTask\AsyncTask\bin\Debug\netcoreapp3.1\AsyncTask.exe
+C:\01-GitLocal\07-Free2LearnCSharp\07-AsyncTask\AsyncTask\bin\Debug\netcoreapp3.1\AsyncTask.deps.json
+C:\01-GitLocal\07-Free2LearnCSharp\07-AsyncTask\AsyncTask\bin\Debug\netcoreapp3.1\AsyncTask.runtimeconfig.json
+C:\01-GitLocal\07-Free2LearnCSharp\07-AsyncTask\AsyncTask\bin\Debug\netcoreapp3.1\AsyncTask.runtimeconfig.dev.json
+C:\01-GitLocal\07-Free2LearnCSharp\07-AsyncTask\AsyncTask\bin\Debug\netcoreapp3.1\AsyncTask.dll
+C:\01-GitLocal\07-Free2LearnCSharp\07-AsyncTask\AsyncTask\bin\Debug\netcoreapp3.1\AsyncTask.pdb
+C:\01-GitLocal\07-Free2LearnCSharp\07-AsyncTask\AsyncTask\obj\Debug\netcoreapp3.1\AsyncTask.csprojAssemblyReference.cache
+C:\01-GitLocal\07-Free2LearnCSharp\07-AsyncTask\AsyncTask\obj\Debug\netcoreapp3.1\AsyncTask.AssemblyInfoInputs.cache
+C:\01-GitLocal\07-Free2LearnCSharp\07-AsyncTask\AsyncTask\obj\Debug\netcoreapp3.1\AsyncTask.AssemblyInfo.cs
+C:\01-GitLocal\07-Free2LearnCSharp\07-AsyncTask\AsyncTask\obj\Debug\netcoreapp3.1\AsyncTask.dll
+C:\01-GitLocal\07-Free2LearnCSharp\07-AsyncTask\AsyncTask\obj\Debug\netcoreapp3.1\AsyncTask.pdb
