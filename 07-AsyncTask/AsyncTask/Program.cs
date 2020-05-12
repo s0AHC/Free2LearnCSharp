@@ -34,19 +34,18 @@ namespace AsyncTask
 
             //  3.2 Task.Factory.StartNew(Action action)
             Task taskMethod2 = Task.Factory.StartNew(() =>
-              {
-                  //Thread.Sleep(200);
-                  Console.WriteLine($"2nd method: Task.Factory.StartNew(Lambda expression), the thread id is { Thread.CurrentThread.ManagedThreadId}");
-              });
+            {
+                //Thread.Sleep(200);
+                Console.WriteLine($"2nd method: Task.Factory.StartNew(Lambda expression), the thread id is { Thread.CurrentThread.ManagedThreadId}");
+            });
 
             //  3.3 put task in thread in queue by Task.Run(Action action), return and start a Task
             Task taskMethod3 = Task.Run(() =>
-              {
-                  //Thread.Sleep(200);
-                  Console.WriteLine($"3rd method: Task.Run(Lambda expression)), the thread id is { Thread.CurrentThread.ManagedThreadId}");
-              });
-            Console.WriteLine("Process main thread!");
-          
+            {
+                //Thread.Sleep(200);
+                Console.WriteLine($"3rd method: Task.Run(Lambda expression)), the thread id is { Thread.CurrentThread.ManagedThreadId}");
+            });
+            Console.WriteLine("Process main thread!");          
         }
     }
 }
