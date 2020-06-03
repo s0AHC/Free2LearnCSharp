@@ -29,7 +29,7 @@ namespace List
             
             IList<Users> UILists = new List<Users>(); 
             // Attention: IList<T> use List<T> to new an instantiation, see the right side of equal sign.
-            // 千万要注意：等式的右边是List<Users>,而不是 IList<Users>,
+            // 千万要注意：等式的右边是List<Users>,而不是 IList<Users>, otherwise your will get error: interface can't be instantiation
             //如果在List前面加一个I， 就会出现错误：抽象类或接口无法创建实例。
             
             UILists.Add(U);
@@ -73,4 +73,30 @@ namespace List
             return null;
         }
     }
+
+    /*
+        IList<> is generic interface, defined some methods should be implemented by coder.
+        IList<>是个泛型接口,定义了一些操作方法这些方法要你自己去实现;
+        List<> is generic class has implemented method that defined by IList<>.
+        List <>是泛型类,它已经实现了IList<>定义的那些方法。
+
+        Let's check below two sentances:
+            IList<Class1> iList1 =new List<Class1>();
+            List<Class1> List1 =new List<Class1>();
+
+        As you saw they all just create an instant of List<Class1> object, so we can say that an equivalent operation.
+        这两行代码，从操作上来看，实际上都是创建了一个List<Class1>对象的实例，也就是说，他们的操作没有区别。
+        but the return value type are different.
+        只是用于保存这个操作的返回值变量类型不一样而已。
+
+        Why we use IList? Just for the different purpose. Use IList<T> means we thought IList<T> defined methods are enough for us.
+        那么，我们可以这么理解，这两行代码的目的不一样。
+        
+        List<Class1> iList1 =new List<Class1>(); This sentance want to create a List<Class1> object and want to use List<> defined methods.
+        List<Class1> List1 =new List<Class1>();  这句是想创建一个List<Class1>，而且需要使用到List<T>的功能，进行相关操作。
+        
+        IList<Class1> iList1 =new List<Class1>(); This sentance want to create an instant of IList<Class1> but implement by List<T>,
+        Although implement by List but iList1 will just use IList<Class1> defined methods.   
+        IList<Class1> iList1 =new List<Class1>(); 只是想创建一个基于接口IList<Class1>的对象的实例，只是这个接口是由List<T>实现的。所以它只是希望使用到IList<T>接口规定的功能而已。
+    */
 }
