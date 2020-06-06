@@ -1,0 +1,11 @@
+C:\01-GitLocal\07-Free2LearnCSharp\99-Algorithm\RecursionIteration\bin\Debug\netcoreapp3.1\RecursionIteration.exe
+C:\01-GitLocal\07-Free2LearnCSharp\99-Algorithm\RecursionIteration\bin\Debug\netcoreapp3.1\RecursionIteration.deps.json
+C:\01-GitLocal\07-Free2LearnCSharp\99-Algorithm\RecursionIteration\bin\Debug\netcoreapp3.1\RecursionIteration.runtimeconfig.json
+C:\01-GitLocal\07-Free2LearnCSharp\99-Algorithm\RecursionIteration\bin\Debug\netcoreapp3.1\RecursionIteration.runtimeconfig.dev.json
+C:\01-GitLocal\07-Free2LearnCSharp\99-Algorithm\RecursionIteration\bin\Debug\netcoreapp3.1\RecursionIteration.dll
+C:\01-GitLocal\07-Free2LearnCSharp\99-Algorithm\RecursionIteration\bin\Debug\netcoreapp3.1\RecursionIteration.pdb
+C:\01-GitLocal\07-Free2LearnCSharp\99-Algorithm\RecursionIteration\obj\Debug\netcoreapp3.1\RecursionIteration.csprojAssemblyReference.cache
+C:\01-GitLocal\07-Free2LearnCSharp\99-Algorithm\RecursionIteration\obj\Debug\netcoreapp3.1\RecursionIteration.AssemblyInfoInputs.cache
+C:\01-GitLocal\07-Free2LearnCSharp\99-Algorithm\RecursionIteration\obj\Debug\netcoreapp3.1\RecursionIteration.AssemblyInfo.cs
+C:\01-GitLocal\07-Free2LearnCSharp\99-Algorithm\RecursionIteration\obj\Debug\netcoreapp3.1\RecursionIteration.dll
+C:\01-GitLocal\07-Free2LearnCSharp\99-Algorithm\RecursionIteration\obj\Debug\netcoreapp3.1\RecursionIteration.pdb
