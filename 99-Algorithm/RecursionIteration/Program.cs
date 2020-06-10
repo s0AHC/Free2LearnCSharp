@@ -19,7 +19,9 @@ namespace RecursionIteration
             {
                 return n+RecursionMethod(n-1);
             }
-            else{return 0;}
+            else{
+                return 0;
+            }
         }
 
         // Iteration Method
