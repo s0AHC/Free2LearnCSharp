@@ -21,9 +21,9 @@ namespace ReflectOperation
             //get mate data of tank's type
             var tank = _tank.GetType();
 
-            //reflection the methods of MyTank type
+            //reflection the methods of MyTank type, Activator.CreateInstance(VariableName) is a syntax for relection
             object otank = Activator.CreateInstance(tank);
-            // MethodInfo must add Microsoft.Extention.DependenceInjection in NuGet
+            // If you want to use the "MethodInfo", you must add Microsoft.Extention.DependenceInjection in NuGet
             MethodInfo FireMethod = tank.GetMethod("Fire");
             MethodInfo RunMethod = tank.GetMethod("Run");
             //Invoke run and fire methods
@@ -39,6 +39,8 @@ namespace ReflectOperation
 
         class Driver
         {
+            
+            int IntField=20;
             private IVehicle _vehicle;
             public Driver(IVehicle vehicle)
             {
@@ -79,7 +81,7 @@ namespace ReflectOperation
         class MyTank : ITank
         {
             public void Fire()
-            {
+            { 
                 Console.WriteLine("Tank firing ...");
             }
 
